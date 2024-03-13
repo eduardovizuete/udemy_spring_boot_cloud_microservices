@@ -40,8 +40,8 @@ public class UserController {
     }
 
     // Build Update User REST API
-    @PutMapping("{id}")
     // http://localhost:8080/api/users/1
+    @PutMapping("{id}")
     public ResponseEntity<UserDto> updateUser(@PathVariable("id") Long userId,
                                            @RequestBody UserDto user){
         user.setId(userId);
