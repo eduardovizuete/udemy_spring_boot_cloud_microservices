@@ -6,3 +6,5 @@
 ## Section 3: Building CRUD REST API’s with MySQL Database
 ## Section 4: Using DTO (Data Transfer Object) Pattern
 ## Section 5: Using Mapping Libraries to Map Entity to DTO and Vice Versa
+## Section 6: Using Mapping Libraries to Map Entity to DTO and Vice Versa
+## Section 6: Exception Handling in Spring Boot Application
