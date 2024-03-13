@@ -26,9 +26,7 @@ public class UserServiceImpl implements UserService {
         User savedUser = userRepository.save(user);
 
         // convert user jpa entity to userdto
-        UserDto savedUserDto = UserMapper.mapToUserDto(savedUser);
-
-        return savedUserDto;
+        return UserMapper.mapToUserDto(savedUser);
     }
 
     @Override
