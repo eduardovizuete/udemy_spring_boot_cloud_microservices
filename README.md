@@ -8,3 +8,6 @@
 ## Section 5: Using Mapping Libraries to Map Entity to DTO and Vice Versa
 ## Section 6: Using Mapping Libraries to Map Entity to DTO and Vice Versa
 ## Section 6: Exception Handling in Spring Boot Application
+## Section 7: Spring Boot REST API Validation
+## Section 8: Spring Boot Actuator - Production Ready Features
+## Section 9: Spring Boot REST API Documentation
