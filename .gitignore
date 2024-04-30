@@ -23,4 +23,9 @@
 hs_err_pid*
 replay_pid*
 
+# ide intellij idea
+.DS_Store
+.idea
+
+# recursos
 recursos/Spring\+Boot\+Actuator\+Notes.pdf
