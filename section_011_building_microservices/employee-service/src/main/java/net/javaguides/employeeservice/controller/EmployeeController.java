@@ -6,7 +6,6 @@ import net.javaguides.employeeservice.service.EmployeeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.context.annotation.RequestScope;
 
 @RestController
 @RequestMapping("api/employees")
@@ -28,5 +27,17 @@ public class EmployeeController {
         EmployeeDto employee = employeeService.getEmployeeById(employeeId);
         return new ResponseEntity<>(employee, HttpStatus.OK);
     }
+
+    /*@ExceptionHandler(ResourceNotFoundException.class)
+    public ResponseEntity<ErrorDetails> handleResourceNotFoundException(ResourceNotFoundException exception,
+                                                                        WebRequest webRequest) {
+        ErrorDetails errorDetails = new ErrorDetails(
+                LocalDateTime.now(),
+                exception.getMessage(),
+                webRequest.getDescription(false),
+                "USER_NOT_FOUND");
+
+        return new ResponseEntity<>(errorDetails, HttpStatus.NOT_FOUND);
+    }*/
 
 }
