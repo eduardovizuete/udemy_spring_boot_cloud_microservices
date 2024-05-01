@@ -11,3 +11,5 @@
 ## Section 7: Spring Boot REST API Validation
 ## Section 8: Spring Boot Actuator - Production Ready Features
 ## Section 9: Spring Boot REST API Documentation
+## Section 10: Microservices Introduction
+## Section 11: Building Microservices
