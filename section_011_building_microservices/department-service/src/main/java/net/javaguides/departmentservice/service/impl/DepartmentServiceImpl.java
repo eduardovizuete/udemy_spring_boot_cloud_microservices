@@ -18,23 +18,11 @@ public class DepartmentServiceImpl implements DepartmentService {
     @Override
     public DepartmentDto saveDepartment(DepartmentDto departmentDto) {
         // convert department dto to department jpa entity
-        /*Department department = new Department(
-                departmentDto.getId(),
-                departmentDto.getDepartmentName(),
-                departmentDto.getDepartmentDescription(),
-                departmentDto.getDepartmentCode()
-        );*/
         Department department = modelMapper.map(departmentDto, Department.class);
 
         Department saveDepartment = departmentRepository.save(department);
 
         // convert department jpa entity to department
-        /*DepartmentDto saveDepartmentDto = new DepartmentDto(
-                saveDepartment.getId(),
-                saveDepartment.getDepartmentName(),
-                saveDepartment.getDepartmentDescription(),
-                saveDepartment.getDepartmentCode()
-        );*/
         DepartmentDto saveDepartmentDto = modelMapper.map(saveDepartment, DepartmentDto.class);
 
         return saveDepartmentDto;
@@ -45,12 +33,6 @@ public class DepartmentServiceImpl implements DepartmentService {
         Department department = departmentRepository.findByDepartmentCode(departmentCode);
 
         // convert department jpa entity to department
-        /*DepartmentDto departmentDto = new DepartmentDto(
-                department.getId(),
-                department.getDepartmentName(),
-                department.getDepartmentDescription(),
-                department.getDepartmentCode()
-        );*/
         DepartmentDto departmentDto = modelMapper.map(department, DepartmentDto.class);
 
         return departmentDto;
