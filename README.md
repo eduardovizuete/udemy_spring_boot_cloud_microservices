@@ -13,3 +13,5 @@
 ## Section 9: Spring Boot REST API Documentation
 ## Section 10: Microservices Introduction
 ## Section 11: Building Microservices
+## Section 13: Microservices Communication
+    ### Microservices Communication using RestTemplate
