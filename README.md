@@ -17,3 +17,4 @@
 ### Microservices Communication using RestTemplate
 ### Microservices Communication using WebClient
 ### Microservices Communication using Spring Cloud OpenFeign
+## Section 14: Service Registry and Discovery using Spring Cloud Netflix Eureka
