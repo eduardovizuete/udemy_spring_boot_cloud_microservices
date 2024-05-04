@@ -24,3 +24,6 @@
 ### Load Balancing with Eureka, Open Feign and Spring Cloud LoadBalancer
 ## Section 15: API Gateway using Spring Cloud Gateway
 ### Create and Set up API Gateway Microservice in IntelliJ IDEA
+### Register API-Gateway as Eureka Client to Eureka Server
+### Configuring API Gateway Routes and Test using Postman Client
+### Using Spring Cloud Gateway to Automatically Create Routes
