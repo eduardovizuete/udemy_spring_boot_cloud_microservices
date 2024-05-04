@@ -27,3 +27,5 @@
 ### Register API-Gateway as Eureka Client to Eureka Server
 ### Configuring API Gateway Routes and Test using Postman Client
 ### Using Spring Cloud Gateway to Automatically Create Routes
+## Section 16: Centralized Configurations using Spring Cloud Config Server
+### Create and Setup Spring Cloud Config Server Project in IntelliJ IDEA
