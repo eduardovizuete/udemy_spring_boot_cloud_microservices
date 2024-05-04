@@ -22,3 +22,5 @@
 ### Register DepartmentService Microservice as Eureka Client
 ### Register EmployeeService Microservice as Eureka Client
 ### Load Balancing with Eureka, Open Feign and Spring Cloud LoadBalancer
+## Section 15: API Gateway using Spring Cloud Gateway
+### Create and Set up API Gateway Microservice in IntelliJ IDEA
