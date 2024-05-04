@@ -31,3 +31,5 @@
 ### Create and Setup Spring Cloud Config Server Project in IntelliJ IDEA
 ### Register Config-Server as Eureka Client
 ### Set up Git Location for Config Server
+### Refactor Department-Service to use Config Server 
+### Refactor Employee-Service to use Config Server
