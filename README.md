@@ -29,3 +29,5 @@
 ### Using Spring Cloud Gateway to Automatically Create Routes
 ## Section 16: Centralized Configurations using Spring Cloud Config Server
 ### Create and Setup Spring Cloud Config Server Project in IntelliJ IDEA
+### Register Config-Server as Eureka Client
+### Set up Git Location for Config Server
