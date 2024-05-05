@@ -34,3 +34,6 @@
 ### Refactor Department-Service to use Config Server 
 ### Refactor Employee-Service to use Config Server
 ### Refresh Use case - No Restart Required After Config Changes
+## Section 17: Auto Refresh Config Changes using Spring Cloud Bus
+docker pull rabbitmq
+docker run -rm -it -p 5672:5672 rabbitmq
