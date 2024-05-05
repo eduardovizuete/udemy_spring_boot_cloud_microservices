@@ -37,3 +37,5 @@
 ## Section 17: Auto Refresh Config Changes using Spring Cloud Bus
 docker pull rabbitmq
 docker run -rm -it -p 5672:5672 rabbitmq
+## Distributed Tracing with Spring Cloud Micrometer and Zipkin
+run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
