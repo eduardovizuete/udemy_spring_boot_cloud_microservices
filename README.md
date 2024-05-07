@@ -39,3 +39,5 @@ docker pull rabbitmq
 docker run -rm -it -p 5672:5672 rabbitmq
 ## Distributed Tracing with Spring Cloud Micrometer and Zipkin
 run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
+## Section 19: Circuit Breaker using Resilience4J Implementation
+### Circuit Breaker Pattern implementation using Resilience4j
