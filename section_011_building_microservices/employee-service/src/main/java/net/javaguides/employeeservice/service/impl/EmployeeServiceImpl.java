@@ -1,6 +1,7 @@
 package net.javaguides.employeeservice.service.impl;
 
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import io.github.resilience4j.retry.annotation.Retry;
 import lombok.AllArgsConstructor;
 import net.javaguides.employeeservice.dto.APIResponseDto;
 import net.javaguides.employeeservice.dto.DepartmentDto;
@@ -11,6 +12,8 @@ import net.javaguides.employeeservice.mapper.AutoEmployeeMapper;
 import net.javaguides.employeeservice.repository.EmployeeRepository;
 import net.javaguides.employeeservice.service.APIFeignClient;
 import net.javaguides.employeeservice.service.EmployeeService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -21,6 +24,8 @@ import java.util.Optional;
 @Service
 @AllArgsConstructor
 public class EmployeeServiceImpl implements EmployeeService {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger((EmployeeServiceImpl.class));
 
     private EmployeeRepository employeeRepository;
 
@@ -37,9 +42,11 @@ public class EmployeeServiceImpl implements EmployeeService {
         return savedEmployeedDto;
     }
 
-    @CircuitBreaker(name = "${spring.application.name}", fallbackMethod = "getDefaultDepartment")
+    @Retry(name = "${spring.application.name}", fallbackMethod = "getDefaultDepartment")
     @Override
     public APIResponseDto getEmployeeById(Long employeeId) {
+        LOGGER.info("Inside getEmployeeById() method");
+
         Optional<Employee> employeeById = employeeRepository.findById(employeeId);
 
         Employee employee = employeeById.orElseThrow(
@@ -62,6 +69,8 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     public APIResponseDto getDefaultDepartment(Long employeeId, Exception exception) {
+        LOGGER.info("Inside getDefaultDepartment() method");
+
         Optional<Employee> employeeById = employeeRepository.findById(employeeId);
 
         Employee employee = employeeById.orElseThrow(
