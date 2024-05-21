@@ -45,3 +45,4 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ## Section 21: Microservice organization
 ### MySql configuration
 ### JPA entity and repository
+### Create OrganizationDto and OrganizationMapper
