@@ -25,7 +25,7 @@ public class Organization {
     @Column(nullable = false)
     private String organizationDescription;
 
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     private String organizationCode;
 
     @CreationTimestamp

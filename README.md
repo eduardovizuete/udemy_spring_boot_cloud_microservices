@@ -47,3 +47,4 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### JPA entity and repository
 ### Create OrganizationDto and OrganizationMapper
 ### Build Save Organization REST API
+### Get Organization By Code REST API
