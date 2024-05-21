@@ -50,3 +50,4 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Get Organization By Code REST API
 ### Communication REST API Call from Employee-Service to Organization-Service
 ### Register Organization-Service as Eureka Client
+### Refactor Organization-Service to use Config Server
