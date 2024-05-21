@@ -42,4 +42,5 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ## Section 19: Circuit Breaker using Resilience4J Implementation
 ### Circuit Breaker Pattern implementation using Resilience4j
 ### Retry Pattern Implementation using Resilience4j
-### Section 21: Microservice organization
+## Section 21: Microservice organization
+### MySql configuration
