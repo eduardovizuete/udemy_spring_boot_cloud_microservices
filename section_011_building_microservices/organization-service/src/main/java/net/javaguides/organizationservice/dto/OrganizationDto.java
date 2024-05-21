@@ -15,7 +15,7 @@ public class OrganizationDto {
 
     private String organizationName;
 
-    private String organizationDesc;
+    private String organizationDescription;
 
     private String organizationCode;
 

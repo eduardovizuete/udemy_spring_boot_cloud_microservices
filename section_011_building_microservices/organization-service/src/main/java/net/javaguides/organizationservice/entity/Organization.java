@@ -23,7 +23,7 @@ public class Organization {
     private String organizationName;
 
     @Column(nullable = false)
-    private String organizationDesc;
+    private String organizationDescription;
 
     @Column(nullable = false)
     private String organizationCode;

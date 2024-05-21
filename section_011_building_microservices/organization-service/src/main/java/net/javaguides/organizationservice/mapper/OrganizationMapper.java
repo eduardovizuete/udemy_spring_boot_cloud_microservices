@@ -9,7 +9,7 @@ public class OrganizationMapper {
         OrganizationDto organizationDto = new OrganizationDto(
                 organization.getId(),
                 organization.getOrganizationName(),
-                organization.getOrganizationDesc(),
+                organization.getOrganizationDescription(),
                 organization.getOrganizationCode(),
                 organization.getCreatedDate()
         );
@@ -21,7 +21,7 @@ public class OrganizationMapper {
         Organization organization = new Organization(
                 organizationDto.getId(),
                 organizationDto.getOrganizationName(),
-                organizationDto.getOrganizationDesc(),
+                organizationDto.getOrganizationDescription(),
                 organizationDto.getOrganizationCode(),
                 organizationDto.getCreatedDate()
         );
