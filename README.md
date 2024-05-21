@@ -51,3 +51,4 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Communication REST API Call from Employee-Service to Organization-Service
 ### Register Organization-Service as Eureka Client
 ### Refactor Organization-Service to use Config Server
+### Configure Spring Cloud Bus and Routes for Organization-Service in API-Gateway
