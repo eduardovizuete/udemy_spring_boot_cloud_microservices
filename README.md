@@ -44,3 +44,4 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Retry Pattern Implementation using Resilience4j
 ## Section 21: Microservice organization
 ### MySql configuration
+### JPA entity and repository
