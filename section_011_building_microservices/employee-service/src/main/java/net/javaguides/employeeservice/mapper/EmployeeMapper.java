@@ -6,11 +6,12 @@ import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
 @Mapper
-public interface AutoEmployeeMapper {
+public interface EmployeeMapper {
 
-    AutoEmployeeMapper MAPPER = Mappers.getMapper(AutoEmployeeMapper.class);
+    EmployeeMapper MAPPER = Mappers.getMapper(EmployeeMapper.class);
 
     EmployeeDto maptoEmployeeDto(Employee employee);
+
     Employee mapToEmployee(EmployeeDto employeeDto);
 
 }
