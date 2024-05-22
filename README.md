@@ -52,3 +52,4 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Register Organization-Service as Eureka Client
 ### Refactor Organization-Service to use Config Server
 ### Configure Spring Cloud Bus and Routes for Organization-Service in API-Gateway
+### Implement distributed tracing in Organization-Service
