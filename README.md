@@ -53,3 +53,8 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Refactor Organization-Service to use Config Server
 ### Configure Spring Cloud Bus and Routes for Organization-Service in API-Gateway
 ### Implement distributed tracing in Organization-Service
+## Section 22: Creating React Frontend Microservice
+### Create React App using Create React App Tool
+    npx create-react-app react-frontend
+    cd react-frontend
+    npm start
