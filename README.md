@@ -58,3 +58,5 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
     npx create-react-app react-frontend
     cd react-frontend
     npm start
+### Adding Bootstrap in React Using NPM
+    npm install bootstrap --save
