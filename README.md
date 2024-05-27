@@ -63,3 +63,4 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Axios library Write HTTP Client Code to Connect React App with API-Gateway (REST API Call)
     npm install axios --save
 ### Create a React Component and Integrate with API Gateway Microservice
+### Design the Page to Display User, Department and Organization Details
