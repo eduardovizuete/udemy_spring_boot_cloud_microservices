@@ -38,7 +38,7 @@ public class OrganizationController {
 
     @Operation(
             summary = "Get organization REST API",
-            description = "Get organization REST API is used to get a organization object from the database"
+            description = "Get organization REST API is used to get an organization object from the database"
     )
     @ApiResponse(
             responseCode = "200",

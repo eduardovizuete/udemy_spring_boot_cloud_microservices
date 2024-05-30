@@ -66,3 +66,4 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Design the Page to Display User, Department and Organization Details
 ## Section 24: Department-Service - REST API Documentation
 ## Section 25: Organization-Service - REST API Documentation
+## Section 26: Employee-Service - REST API Documentation
