@@ -16,7 +16,7 @@ import org.springframework.web.context.request.WebRequest;
 import java.time.LocalDateTime;
 @Tag(
         name = "Department service - DepartmentController",
-        description = "DepartmentController exposes REST APIs for department services"
+        description = "DepartmentController exposes REST APIs for department service"
 )
 @RestController
 @RequestMapping("api/departments")

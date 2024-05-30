@@ -10,24 +10,24 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-@OpenAPIDefinition (
+@OpenAPIDefinition(
 		info = @Info(
 				title = "Department service REST APIs",
 				description = "Department service REST APIs documentation",
 				version = "V1.0",
-				contact = @Contact (
+				contact = @Contact(
 						name = "test",
-						email = "test@test",
-						url = "http://test.io"
+						email = "javaguides.@net",
+						url = "javaguides.net"
 				),
-				license = @License (
+				license = @License(
 						name = "Apache 2.0",
-						url = "http://test.io"
+						url = "javaguides.net/license"
 				)
 		),
-		externalDocs = @ExternalDocumentation (
-				description = "Department-Service doc",
-				url = "http://test.io"
+		externalDocs = @ExternalDocumentation(
+				description = "Department service doc",
+				url = "javaguides.net/license/department_service.html"
 		)
 )
 @SpringBootApplication
