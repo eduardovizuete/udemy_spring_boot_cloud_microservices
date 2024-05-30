@@ -67,5 +67,25 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ## Section 24: Department-Service - REST API Documentation
 ## Section 25: Organization-Service - REST API Documentation
 ## Section 26: Employee-Service - REST API Documentation
-### Section 27: Dockering Spring Boot Application Step by Step
+## Section 27: Dockering Spring Boot Application Step by Step
 ### Create Spring Boot Project and Build Simple REST API
+### Create Dockerfile to Build Docker Image 
+### Run Docker Image in a Docker Container
+---
+    docker build -t springboot-docker-demo .
+    docker run -p8080:8080 springboot-docker-demo
+
+-- detach mode
+
+    docker run -p8080:8080 -d springboot-docker-demo
+
+-- view logs
+
+    docker logs -f 3cfc
+
+## Push Docker Image to DockerHub
+
+    docker tag springboot-docker-demo javaguides/springboot-docker-demo:0.1.RELEASE
+    docker push javaguides/springboot-docker-demo:0.1.RELEASE
+
+
