@@ -88,4 +88,33 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
     docker tag springboot-docker-demo javaguides/springboot-docker-demo:0.1.RELEASE
     docker push javaguides/springboot-docker-demo:0.1.RELEASE
 
+## Section 28: Dockering Spring Boot MySQL CRUD Application Step by Step
+### Pull and Run MySQL Image in a Docker Container
+
+-- pull mysql images  
+
+    docker pull mysql
+
+    
+-- create network
+
+    docker network create springboot-mysql-net
+
+
+-- run mysql docker container
+
+    docker run --name mysqldb --network springboot-mysql-net -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=employee_db -d mysql
+
+-- enter to container
+
+    docker exec -it mysqldb bash
+
+### Implement Profile and Build Docker image
+### Run Spring Boot App Docker Image in a Container and Test CRUD REST APIs
+
+-- create image springboot-restful-webservices and run
+
+    cd /springboot-restful-webservices
+    docker build -t springboot-restful-webservices .
+    docker run --network springboot-mysql-net --name springboot-mysql-container -p 8080:8080 springboot-restful-webservices
 
