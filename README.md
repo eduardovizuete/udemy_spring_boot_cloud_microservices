@@ -118,3 +118,13 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
     docker build -t springboot-restful-webservices .
     docker run --network springboot-mysql-net --name springboot-mysql-container -p 8080:8080 springboot-restful-webservices
 
+## Section 29: Docker Compose - Dockering Spring Boot MySQL CRUD Application Step by Step
+### Configure and Run MySQL Image in a Container using Docker Compose
+### Configure and Run Spring Boot in a Container using Docker Compose
+
+    docker compose up
+    docker compose up -d
+    docker logs -f mysqldb
+    docker compose down
+    docker compose up -d --build
+
