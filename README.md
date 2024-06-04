@@ -144,4 +144,8 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 
 
 ### Create and Setup Spring Boot Project
-
+### Configure Kafka Producer and Consumer
+### Create Kafka Topic
+### Create Kafka Producer
+### Create REST API to Send Message
+### Create Kafka Consumer
