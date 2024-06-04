@@ -149,3 +149,9 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Create Kafka Producer
 ### Create REST API to Send Message
 ### Create Kafka Consumer
+### Configure Kafka Producer and Consumer for JSON Serializer and Deserializer
+### Create Simple POJO to Serialize/Deserialize
+### Create Kafka Producer to Produce JSON Message
+### Create REST API to Send JSON Object
+### Create Kafka Consumer to Consume JSON Message
+### Refactor Code to Externalize The Topic Name - Remove Hard Coded Values
