@@ -155,3 +155,7 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Create REST API to Send JSON Object
 ### Create Kafka Consumer to Consume JSON Message
 ### Refactor Code to Externalize The Topic Name - Remove Hard Coded Values
+
+## Section 31: Spring Boot Kafka Real-World Project - Wikimedia Data Processing
+### Spring Boot Kafka Project Setup - Create Two Microservices
+### Wikimedia Producer Spring Boot Project Setup
