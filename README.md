@@ -159,3 +159,5 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ## Section 31: Spring Boot Kafka Real-World Project - Wikimedia Data Processing
 ### Spring Boot Kafka Project Setup - Create Two Microservices
 ### Wikimedia Producer Spring Boot Project Setup
+### Configure Wikimedia Producer and Create a Topic
+### Wikimedia Producer Implementation
