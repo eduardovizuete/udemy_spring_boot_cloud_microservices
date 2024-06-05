@@ -161,3 +161,6 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Wikimedia Producer Spring Boot Project Setup
 ### Configure Wikimedia Producer and Create a Topic
 ### Wikimedia Producer Implementation
+### Kafka Consumer Project Setup
+### Configure Kafka Consumer in application.properties File
+### Kafka Consumer Implementation
