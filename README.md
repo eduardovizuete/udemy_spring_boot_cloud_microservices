@@ -166,3 +166,8 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Kafka Consumer Implementation
 ### Configure MySQL Database
 ### Save Wikimedia Data into MySQL Database
+### Refactor Code to Externalize The Topic Name - Remove HardCoded Values
+
+    Check messages in topic
+    $ bin/kafka-console-consumer.sh --topic wikimedia_recentchange --from-beginning --bootstrap-server localhost:9092
+
