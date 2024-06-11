@@ -176,4 +176,5 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ![](docs/images/section_32_architecture.png)
 ### Base-Domains Microservice - Create DTO Classes - Order and OrderEvent
 ### OrderService Microservice - Configure Kafka Producer - Kafka topic - REST API send order
-### StockService Microservice  - Kafka Consumer
+### StockService Microservice - Configure and Create Kafka Consumer
+### EmailService Microservice - Configure and Create Kafka Consumer
