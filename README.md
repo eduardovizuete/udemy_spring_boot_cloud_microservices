@@ -175,4 +175,4 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Create 4 Microservices - OrderService, StockService, EmailService & Base-Domains
 ![](docs/images/section_32_architecture.png)
 ### Base-Domains Microservice - Create DTO Classes - Order and OrderEvent
-
+### OrderService Microservice - Configure Kafka Producer - Kafka topic - REST API send order
