@@ -171,3 +171,7 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
     Check messages in topic
     $ bin/kafka-console-consumer.sh --topic wikimedia_recentchange --from-beginning --bootstrap-server localhost:9092
 
+## Section 32: Event-Driven Microservices using Spring boot and Kafka
+### Create 4 Microservices - OrderService, StockService, EmailService & Base-Domains
+![](docs/images/section_32_architecture.png)
+
