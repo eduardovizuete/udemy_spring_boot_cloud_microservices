@@ -174,4 +174,5 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ## Section 32: Event-Driven Microservices using Spring boot and Kafka
 ### Create 4 Microservices - OrderService, StockService, EmailService & Base-Domains
 ![](docs/images/section_32_architecture.png)
+### Base-Domains Microservice - Create DTO Classes - Order and OrderEvent
 
