@@ -178,3 +178,11 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### OrderService Microservice - Configure Kafka Producer - Kafka topic - REST API send order
 ### StockService Microservice - Configure and Create Kafka Consumer
 ### EmailService Microservice - Configure and Create Kafka Consumer
+## Section 33: Learn RabbitMQ with Spring Boot (Important for Beginners)
+### Install and Setup RabbitMQ using Docker
+
+    docker pull rabbitmq:3.13.3-management
+    docker run --rm -it -p 15672:15672 -p 5672:5672 rabbitmq:3.13.3-management
+        acceso consola web: http://localhost:15672 (guest/guest)
+
+### Create and Setup Spring Boot 3 Project baseline
