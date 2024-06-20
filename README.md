@@ -192,4 +192,9 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Connection Between Spring Boot and RabbitMQ
 ### Configure RabbitMQ in Spring Boot Application
 ### Create RabbitMQ Producer
-### Create RabbitMQ Producer
+### Create REST API to send message
+### Create RabbitMQ Consumer
+### Configure RabbitMQ for JSON Message Communication
+### Create producer, REST API, consumer for JSON message
+
+![](docs/images/section_033_architecture_json_queues.png)
