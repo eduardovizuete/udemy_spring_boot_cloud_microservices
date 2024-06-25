@@ -1,6 +1,6 @@
-package net.javaguides.stockservice.consumer;
+package net.javaguides.emailservice.consumer;
 
-import net.javaguides.stockservice.dto.OrderEvent;
+import net.javaguides.emailservice.dto.OrderEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
@@ -11,11 +11,11 @@ public class OrderConsumer {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(OrderConsumer.class);
 
-    @RabbitListener(queues = "${rabbitmq.queue.order.name}")
+    @RabbitListener(queues = "${rabbitmq.queue.email.name}")
     public void consume(OrderEvent event) {
-        LOGGER.info(String.format("Order event received in stock service => %s", event.toString()));
+        LOGGER.info(String.format("Order event received in email service => %s", event.toString()));
 
-        // Todo: save order event data in database
+        // Todo: send email order event to customer
     }
 
 }
