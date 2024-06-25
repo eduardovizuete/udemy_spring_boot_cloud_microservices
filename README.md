@@ -1,5 +1,7 @@
 # Building Microservices with Spring Boot &amp; Spring Cloud
 
+Learn to Build Microservices using Spring Boot 3, Spring Cloud, React, Kafka, RabbitMQ, REST API, Docker & IntelliJ IDEA
+
 # udemy_spring_boot_cloud_microservices
 
 ## Section 2: Spring Boot REST API Development Basics
@@ -22,9 +24,15 @@
 
 ## Section 10: Microservices Introduction
 
+![Microservices Architecture 1](docs/images/section_010_microservice_architecture_one.png)
+
+![Microservices Architecture 2](docs/images/section_010_microservice_architecture_two.png)
+
 ## Section 11: Building Microservices
 
 ## Section 13: Microservices Communication
+
+![Microservices Communication](docs/images/section_013_micro_communication.png)
 
 ### Microservices Communication using RestTemplate
 
@@ -34,6 +42,8 @@
 
 ## Section 14: Service Registry and Discovery using Spring Cloud Netflix Eureka
 
+![Service Registry and Discovery using Spring Cloud Netflix Eureka](docs/images/section_014_service_registry_discovery.png)
+
 ### Spring Cloud Netflix Eureka Server Implementation
 
 ### Register DepartmentService Microservice as Eureka Client
@@ -42,7 +52,11 @@
 
 ### Load Balancing with Eureka, Open Feign and Spring Cloud LoadBalancer
 
+![Load Balancing with Eureka, Open Feign and Spring Cloud LoadBalancer](docs/images/section_014_eureka_load_balance_openfeign.png)
+
 ## Section 15: API Gateway using Spring Cloud Gateway
+
+![Load Balancing with Eureka, Open Feign and Spring Cloud LoadBalancer](docs/images/section_015_api_gateway.png)
 
 ### Create and Set up API Gateway Microservice in IntelliJ IDEA
 
