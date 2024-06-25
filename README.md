@@ -198,3 +198,10 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 ### Create producer, REST API, consumer for JSON message
 
 ![](docs/images/section_033_architecture_json_queues.png)
+
+## Section 34: Event-Driven Microservices using Spring boot and RabbitMQ
+
+![](docs/images/section_034_architecture.png)
+
+### Create 3 Microservices - OrderService, StockService and EmailService
+### OrderService Microservice - Configure RabbitMQ - Create Producer - Create REST API to Send Message
