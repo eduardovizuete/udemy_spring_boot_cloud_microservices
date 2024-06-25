@@ -205,3 +205,4 @@ run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin
 
 ### Create 3 Microservices - OrderService, StockService and EmailService
 ### OrderService Microservice - Configure RabbitMQ - Create Producer - Create REST API to Send Message
+### StockService Microservice  - Configure RabbitMQ - Create Consumer
